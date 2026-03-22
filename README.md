@@ -1,8 +1,8 @@
 <div align="center">
 
-# 👋 Hi, I'm Ravi Kumar Keshari
+![Header](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=35&pause=5000&color=00D9FF&center=true&vCenter=true&width=600&height=70&lines=👋+Hi%2C+I'm+Ravi+Kumar+Keshari)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Data+Science+%26+ML+Enthusiast+🤖;Full+Stack+Web+Developer+🌐;IIT+Patna+%7C+CS+%26+Data+Analytics+🎓;Open+to+Internships+%26+Collaborations+🤝)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Data+Science+%26+ML+Enthusiast+🤖;Full+Stack+Web+Developer+🌐;IIT+Patna+%7C+CS+%26+Data+Analytics+🎓;Open+to+Internships+%26+Collaborations+🤝)](https://git.io/typing-svg)
 
 </div>
 
