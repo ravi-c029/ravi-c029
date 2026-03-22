@@ -140,12 +140,6 @@ ravi = {
 
 ---
 
-## 🐍 Contribution Snake
-
-![Snake](https://github.com/ravi-c029/ravi-c029/blob/output/github-contribution-grid-snake.svg)
-
----
-
 ## 📈 Contribution Graph
 
 <div align="center">
