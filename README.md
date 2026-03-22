@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ravi%20Kumar%20Keshari&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=CS%20%26%20Data%20Analytics%20%40%20IIT%20Patna&descAlignY=55&descSize=18" width="100%"/>
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d1117&height=180&section=header&text=Ravi%20Kumar%20Keshari&fontSize=40&fontColor=00d9ff&animation=fadeIn&fontAlignY=38&desc=CS%20%26%20Data%20Analytics%20%7C%20IIT%20Patna&descAlignY=58&descSize=16&descColor=ffffff" width="100%"/>
 </div>
 
 <div align="center">
@@ -39,7 +38,7 @@ ravi = {
 ### 🔭 Currently Working On
 - 🌐 Personal portfolio website
 - 🧪 Chemical Equipment Visualizer (Python)
-- 🏙️ Civic Sense India platform
+- 🏙️ CivicRise India platform
 
 </td>
 <td width="50%">
@@ -133,9 +132,7 @@ ravi = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ravi-c029&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravi-c029&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact"/>
-
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ravi-c029&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&show_icons=true"/>
 </div>
 
 <div align="center">
@@ -150,8 +147,7 @@ ravi = {
 
 <div align="center">
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=ravi-c029&theme=tokyonight&no-frame=true&no-bg=false&margin-w=6&row=1)
-
+![Trophies](https://github-profile-trophy.vercel.app/?username=ravi-c029&theme=tokyonight&no-frame=true&margin-w=6&column=6)
 </div>
 
 ---
