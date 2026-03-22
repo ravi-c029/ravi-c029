@@ -1,11 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:0d1117&height=180&section=header&text=Ravi%20Kumar%20Keshari&fontSize=40&fontColor=00d9ff&animation=fadeIn&fontAlignY=38&desc=CS%20%26%20Data%20Analytics%20%7C%20IIT%20Patna&descAlignY=58&descSize=16&descColor=ffffff" width="100%"/>
-</div>
+# 👋 Hi, I'm Ravi Kumar Keshari
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Data+Science+%26+ML+Enthusiast+%F0%9F%A4%96;Full+Stack+Web+Developer+%F0%9F%8C%90;IIT+Patna+%7C+CS+%26+Data+Analytics+%F0%9F%8E%93;Building+Real-World+Solutions+%F0%9F%9A%80;Open+to+Internships+%26+Collaborations+%F0%9F%A4%9D)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Data+Science+%26+ML+Enthusiast+🤖;Full+Stack+Web+Developer+🌐;IIT+Patna+%7C+CS+%26+Data+Analytics+🎓;Open+to+Internships+%26+Collaborations+🤝)](https://git.io/typing-svg)
 
 </div>
 
