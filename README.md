@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=RAVI%20KUMAR%20KESHARI&fontSize=42&fontColor=00F5D4&fontAlignY=38&animation=fadeIn&desc=Software%20Engineer%20%7C%20Distributed%20Systems%20%2B%20Generative%20AI&descAlignY=58&descSize=18&descColor=8892B0" width="100%"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00F5D4&center=true&vCenter=true&width=800&lines=Building+production-grade+platforms+for+100K%2B+users;NestJS+%2B+Next.js+%2B+PostgreSQL+%2B+Redis;Generative+AI+%7C+Multimodal+RAG+%7C+Diffusion+Models;IIT+Patna+%E2%80%94+CS+%26+Data+Analytics+%2724-%2728" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00F5D4&center=true&vCenter=true&width=800&lines=Architecting+production-grade+platforms+for+100K%2B+users;NestJS+%2B+Next.js+%2B+PostgreSQL+%2B+Redis;Generative+AI+%7C+Multimodal+RAG+%7C+Diffusion+Models;IIT+Patna+%E2%80%94+CS+%26+Data+Analytics+%2724-%2728" />
 
 <br/>
 
@@ -57,6 +57,21 @@ philosophy: >
 
 <br/>
 
+## 🧠 Core Expertise
+
+<br/>
+
+| Domain | Proficiency | Details |
+|---|---|---|
+| **Full Stack Engineering** | ██████████ | Next.js, NestJS, Flutter — end-to-end multi-surface architecture |
+| **Backend & System Design**| ██████████ | Distributed systems, Redis queues, REST/WebSockets, high concurrency |
+| **Generative AI & RAG**    | █████████░ | Multimodal RAG pipelines, Diffusion Models, ViT, `pgvector` |
+| **Data Science**           | █████████░ | Pandas, NumPy, scikit-learn — analysis & applied ML |
+| **DevOps & Cloud**         | ████████░░ | Docker, CI/CD pipelines, AWS, Edge deployment |
+| **DSA & Algorithms**       | █████████░ | Daily problem solving, optimized system design for hackathons |
+
+<br/>
+
 ## ⚡ Technology Stack
 
 <br/>
@@ -68,9 +83,9 @@ philosophy: >
 <img src="https://skillicons.dev/icons?i=ts,js,py,cpp,dart,html,css&theme=dark"/>
 <br/><br/>
 
-**Backend & Architecture**
+**Backend & Databases**
 <br/>
-<img src="https://skillicons.dev/icons?i=nestjs,nodejs,express,graphql,prisma,postgres,redis,mongodb&theme=dark"/>
+<img src="https://skillicons.dev/icons?i=nestjs,nodejs,express,graphql,prisma,postgres,redis,mongodb,supabase&theme=dark"/>
 <br/><br/>
 
 **AI & Data Engineering**
@@ -91,7 +106,7 @@ philosophy: >
 
 <br/>
 
-## 🛰️ Architecture & Featured Builds
+## 🛰️ Featured Builds
 
 <br/>
 
@@ -137,8 +152,35 @@ Designed a full system architecture with a real-time low-latency voice pipeline 
 
 | Recognition | Details |
 |---|---|
-| 🥉 **HackNtech 3.0** | Secured **3rd Position** overall in the hackathon. |
+| 🥉 **HackNtech 3.0** | Secured **3rd Position** overall in the hackathon, competing against top teams. |
 | 📚 **Leazy Learn** | Successfully shipped a production AI EdTech SaaS with a multimodal RAG tutor serving real students. |
+
+<br/>
+
+## 🎯 Current Focus
+
+<br/>
+
+```yaml
+learning:
+  - Advanced Distributed Systems (Paxos/Raft architectures)
+  - Edge AI & On-Device Inference optimization
+  - Advanced Data Structures & Algorithms
+
+building:
+  - DocMateX — Enterprise-grade healthcare ecosystem
+  - Leazy Learn — Agentic AI Tutor workflows
+
+exploring:
+  - AI Safety, Alignment, and Agentic Workflows
+  - Multi-Sensor Satellite Data Fusion
+
+open_to:
+  - SDE Internships (Backend / Fullstack)
+  - Research Collaborations in Applied AI
+  - Open Source Contributions
+  - Hackathons & System Design Competitions
+```
 
 <br/>
 
@@ -146,52 +188,53 @@ Designed a full system architecture with a real-time low-latency voice pipeline 
 
 <br/>
 
+<table width="100%" align="center">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=ravi-c029&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0A0A0A&title_color=00F5D4&icon_color=00F5D4&text_color=8892B0&count_private=true" alt="GitHub Stats" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://streak-stats.demolab.com/?user=ravi-c029&theme=nightowl&hide_border=true&background=0A0A0A&ring=00F5D4&fire=00F5D4&currStreakLabel=00F5D4" alt="Streak Stats" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravi-c029&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0A0A0A&title_color=00F5D4&text_color=8892B0" alt="Top Languages" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-profile-trophy.vercel.app/?username=ravi-c029&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1&column=4" alt="Trophies" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ravi-c029&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0A0A0A&title_color=00F5D4&icon_color=00F5D4&text_color=8892B0&count_private=true" height="165" alt="GitHub Stats"/>
-<img src="https://streak-stats.demolab.com/?user=ravi-c029&theme=nightowl&hide_border=true&background=0A0A0A&ring=00F5D4&fire=00F5D4&currStreakLabel=00F5D4" height="165" alt="Streak Stats"/>
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravi-c029&layout=pie&theme=chartreuse-dark&hide_border=true&bg_color=0A0A0A&title_color=00F5D4&text_color=8892B0&langs_count=8" height="220" alt="Top Languages"/>
-<img src="https://github-profile-trophy.vercel.app/?username=ravi-c029&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=2&column=4" height="220" alt="Trophies"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ravi-c029&theme=react-dark&hide_border=true&bg_color=0A0A0A&color=00F5D4&line=00F5D4&point=F75C7E" width="100%" alt="Activity Graph"/>
-
-<br/><br/>
-
-<!-- Animated, real-time contribution snake. Generated by .github/workflows/snake.yml -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ravi-c029/ravi-c029/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ravi-c029/ravi-c029/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/ravi-c029/ravi-c029/output/github-contribution-grid-snake-dark.svg" width="100%">
-</picture>
-
-<br/><br/>
-
-<img src="https://leetcard.jacoblin.cool/ravi_c029?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="100%" alt="Leetcode Stats"/>
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ravi-c029&theme=react-dark&hide_border=true&bg_color=0A0A0A&color=00F5D4&line=00F5D4&point=F75C7E" width="100%" alt="Activity Graph"/>
 </div>
 
 <br/>
 
-## 🧠 Runtime Status
+<!-- Animated, real-time contribution snake. Generated by .github/workflows/snake.yml -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ravi-c029/ravi-c029/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ravi-c029/ravi-c029/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/ravi-c029/ravi-c029/output/github-contribution-grid-snake-dark.svg" width="100%">
+  </picture>
+</div>
 
 <br/>
 
-```diff
-+ Scaling backend architectures for 100K+ concurrent users
-+ Optimizing Multimodal RAG retrieval latency for AI tutors
-! Sleep schedule — status: unresponsive, resolving asynchronously
-```
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/ravi_c029?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="100%" alt="Leetcode Stats"/>
+</div>
 
 <br/>
 
 <div align="center">
 
-<samp>"Ship it, measure it, refactor it — repeat."</samp>
+<samp>"The best way to predict the future is to engineer it."</samp>
 
 <br/><br/>
 
