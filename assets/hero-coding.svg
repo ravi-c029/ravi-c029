@@ -1,0 +1,108 @@
+<svg width="480" height="420" viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="55%" stop-color="#141327"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#00F5D4" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#00F5D4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141327"/>
+      <stop offset="100%" stop-color="#1c1a3a"/>
+    </linearGradient>
+    <linearGradient id="deskGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a2750"/>
+      <stop offset="100%" stop-color="#1a1836"/>
+    </linearGradient>
+    <linearGradient id="chairGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#1f1c40"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="480" height="420" rx="18" fill="url(#bg)"/>
+  <rect x="0" y="0" width="480" height="420" rx="18" fill="url(#glow)"/>
+
+  <!-- floating stars -->
+  <g fill="#00F5D4" opacity="0.7">
+    <circle cx="55" cy="55" r="2"/>
+    <circle cx="420" cy="45" r="2.5"/>
+    <circle cx="440" cy="150" r="1.8"/>
+    <circle cx="30" cy="200" r="1.6"/>
+    <circle cx="60" cy="330" r="2"/>
+    <circle cx="430" cy="300" r="2"/>
+  </g>
+
+  <!-- floating tech tags -->
+  <g font-family="JetBrains Mono, monospace" font-size="13" font-weight="600">
+    <g transform="translate(46,95)">
+      <rect width="58" height="26" rx="8" fill="#0A0A0A" stroke="#00F5D4" stroke-width="1"/>
+      <text x="29" y="17" fill="#00F5D4" text-anchor="middle">&lt;/&gt;</text>
+    </g>
+    <g transform="translate(376,90)">
+      <rect width="52" height="26" rx="8" fill="#0A0A0A" stroke="#F75C7E" stroke-width="1"/>
+      <text x="26" y="17" fill="#F75C7E" text-anchor="middle">AI</text>
+    </g>
+    <g transform="translate(30,255)">
+      <rect width="56" height="26" rx="8" fill="#0A0A0A" stroke="#8892B0" stroke-width="1"/>
+      <text x="28" y="17" fill="#8892B0" text-anchor="middle">DB</text>
+    </g>
+    <g transform="translate(388,235)">
+      <rect width="56" height="26" rx="8" fill="#0A0A0A" stroke="#00F5D4" stroke-width="1"/>
+      <text x="28" y="17" fill="#00F5D4" text-anchor="middle">{ }</text>
+    </g>
+  </g>
+
+  <!-- desk -->
+  <path d="M60 330 L420 330 L440 350 L40 350 Z" fill="url(#deskGrad)"/>
+  <rect x="55" y="350" width="10" height="30" fill="#141327"/>
+  <rect x="415" y="350" width="10" height="30" fill="#141327"/>
+
+  <!-- chair -->
+  <path d="M330 300 Q345 250 320 210" stroke="url(#chairGrad)" stroke-width="14" fill="none" stroke-linecap="round"/>
+
+  <!-- student silhouette -->
+  <g>
+    <circle cx="215" cy="215" r="26" fill="#1c1a3a" stroke="#00F5D4" stroke-width="1.5"/>
+    <path d="M195 235 Q215 255 235 235 L245 320 Q215 335 185 320 Z" fill="#241f4a" stroke="#00F5D4" stroke-width="1.2"/>
+    <path d="M180 260 Q160 280 170 305" stroke="#241f4a" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M250 260 Q235 285 210 292" stroke="#241f4a" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <!-- headphones -->
+    <path d="M192 205 Q215 178 238 205" stroke="#F75C7E" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="192" cy="212" r="6" fill="#F75C7E"/>
+    <circle cx="238" cy="212" r="6" fill="#F75C7E"/>
+  </g>
+
+  <!-- laptop -->
+  <g transform="translate(150,255)">
+    <path d="M0 55 L150 55 L165 75 L-15 75 Z" fill="#141327" stroke="#00F5D4" stroke-width="1"/>
+    <path d="M6 0 L144 0 L150 55 L0 55 Z" fill="url(#screenGrad)" stroke="#00F5D4" stroke-width="1.4"/>
+    <!-- code lines -->
+    <rect x="16" y="12" width="40" height="4" rx="2" fill="#00F5D4"/>
+    <rect x="16" y="22" width="70" height="4" rx="2" fill="#F75C7E"/>
+    <rect x="16" y="32" width="55" height="4" rx="2" fill="#8892B0"/>
+    <rect x="16" y="42" width="85" height="4" rx="2" fill="#00F5D4"/>
+    <rect x="16" y="50" width="30" height="3" rx="1.5" fill="#8892B0"/>
+  </g>
+
+  <!-- coffee cup -->
+  <g transform="translate(80,320)">
+    <rect x="0" y="6" width="20" height="18" rx="3" fill="#1c1a3a" stroke="#8892B0" stroke-width="1"/>
+    <path d="M20 10 Q30 10 30 18 Q30 26 20 24" stroke="#8892B0" stroke-width="1.5" fill="none"/>
+    <path d="M4 2 Q6 -4 4 -8" stroke="#8892B0" stroke-width="1.2" fill="none" opacity="0.6"/>
+    <path d="M12 2 Q14 -4 12 -8" stroke="#8892B0" stroke-width="1.2" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- monitor stand accent (second screen) -->
+  <g transform="translate(320,270)">
+    <rect x="0" y="0" width="70" height="46" rx="4" fill="url(#screenGrad)" stroke="#F75C7E" stroke-width="1.2"/>
+    <rect x="8" y="8" width="30" height="3.5" rx="1.5" fill="#00F5D4"/>
+    <rect x="8" y="16" width="50" height="3.5" rx="1.5" fill="#8892B0"/>
+    <rect x="8" y="24" width="40" height="3.5" rx="1.5" fill="#F75C7E"/>
+    <rect x="8" y="32" width="20" height="3.5" rx="1.5" fill="#8892B0"/>
+    <rect x="30" y="46" width="10" height="8" fill="#1c1a3a"/>
+  </g>
+</svg>
