@@ -191,18 +191,15 @@ open_to:
 <table width="100%" align="center">
   <tr>
     <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=ravi-c029&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0A0A0A&title_color=00F5D4&icon_color=00F5D4&text_color=8892B0&count_private=true&cache_seconds=86400" alt="GitHub Stats" />
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=ravi-c029&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0A0A0A&title_color=00F5D4&icon_color=00F5D4&text_color=8892B0&count_private=true&cache_seconds=86400" alt="GitHub Stats" />
     </td>
     <td width="50%" align="center">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=ravi-c029&theme=nightowl&hide_border=true&background=0A0A0A&ring=00F5D4&fire=00F5D4&currStreakLabel=00F5D4&cache_seconds=86400" alt="Streak Stats" />
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravi-c029&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0A0A0A&title_color=00F5D4&text_color=8892B0&cache_seconds=86400" alt="Top Languages" />
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-profile-trophy.vercel.app/?username=ravi-c029&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1&column=4&cache_seconds=86400" alt="Trophies" />
+    <td colspan="2" align="center">
+      <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ravi-c029&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0A0A0A&title_color=00F5D4&text_color=8892B0&cache_seconds=86400" alt="Top Languages" />
     </td>
   </tr>
 </table>
