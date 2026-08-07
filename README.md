@@ -1,172 +1,132 @@
 <div align="center">
-
-![Header](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=35&pause=999999&color=00D9FF&center=true&vCenter=true&width=700&height=70&lines=👋+Hi,+I'm+Ravi+Kumar+Keshari&repeat=false)
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Data+Science+%26+ML+Enthusiast+🤖;Full+Stack+Web+Developer+🌐;IIT+Patna+%7C+CS+%26+Data+Analytics+🎓;Open+to+Internships+%26+Collaborations+🤝)](https://git.io/typing-svg)
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+    <!-- Fallback if SVG fails -->
+    <img alt="Ravi Kumar Keshari - Software Engineer" src="./assets/hero-dark.svg" width="100%">
+  </picture>
 </div>
 
----
+<br/>
 
-## 👨‍💻 About Me
+<div align="center">
+  <a href="https://www.ravikeshari.me/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://linkedin.com/in/ravi-kumar-keshari-a37828347" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://x.com/ravi_c029" target="_blank">
+    <img src="https://img.shields.io/badge/X_/_Twitter-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
+  </a>
+  <a href="mailto:ravi.keshari029@gmail.com">
+    <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://leetcode.com/u/ravi_c029/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" />
+  </a>
+</div>
 
-```python
-ravi = {
-    "name"       : "Ravi Kumar Keshari",
-    "college"    : "IIT Patna (2024–2028)",
-    "degree"     : "B.S. in Computer Science & Data Analytics",
-    "location"   : "Bihar, India 📍",
-    "interests"  : ["Data Science", "Machine Learning", "Web Development"],
-    "currently"  : "Building AI/ML projects & improving DSA",
-    "learning"   : ["Deep Learning", "Data Structures & Algorithms", "TypeScript"],
-    "looking_for": "Internship opportunities in Data Science / SDE roles",
-    "fun_fact"   : "I debug code with the same energy I solve math problems 🧮"
-}
-```
+<br/>
 
----
+## ── Engineering Focus
 
-## 🚀 What I'm Up To
+I architect and scale **distributed backend systems** and **generative AI infrastructure**. Currently pursuing a B.S. in Computer Science & Data Analytics at IIT Patna (2024–2028), I build production-grade applications capable of handling 100K+ concurrent users with high availability and low latency.
+
+**Core Philosophy:** Measure everything. Ship iteratively. Keep the architecture as simple as the scale permits.
+
+<br/>
+
+## ── Architecture & Systems
+
+### 1. DocMateX (Healthcare Networking Engine)
+**Scale:** Designed for 100,000+ users.
+**Architecture:** Monorepo architecture separating the core API layer, real-time messaging workers, and the frontend client. Utilizes a Redis-backed queue system for asynchronous job processing (notifications, AI mentor matching) to ensure the main event loop remains unblocked.
+* **Stack:** NestJS, Next.js 15, Prisma, PostgreSQL, Redis, BullMQ, Socket.IO.
+
+### 2. Leazy Learn (Multimodal RAG AI Tutor)
+**Complexity:** Orchestrating a high-throughput retrieval pipeline for educational contexts.
+**Architecture:** Implements a vector-based Retrieval-Augmented Generation (RAG) system using `pgvector`. It parses unstructured NCERT data, chunking and embedding it to serve highly contextual answers grounded in both text and visual diagrams. 119+ production API routes.
+* **Stack:** Next.js, Supabase, pgvector, Groq / OpenAI, LiveKit (WebRTC), Razorpay.
+
+### 3. GeoAI Reconstruction Engine (ISRO BAH 2026)
+**Complexity:** Fusing Multi-Sensor Satellite Data (SAR).
+**Architecture:** Implemented a generative cloud-removal engine leveraging Vision Transformers (ViT) and Diffusion models. Handled large-scale LISS-IV remote sensing data, optimizing inference time for cloud environments.
+* **Stack:** PyTorch, ViT, Diffusion Models, OpenCV.
+
+<br/>
+
+## ── Technology Stack
 
 <table>
-<tr>
-<td width="50%">
-
-### 🔭 Currently Working On
-- 🌐 Personal portfolio website
-- 🧪 Chemical Equipment Visualizer (Python)
-- 🏙️ CivicRise India platform
-
-</td>
-<td width="50%">
-
-### 🌱 Currently Learning
-- 🤖 Machine Learning with scikit-learn
-- 📊 Data Analysis with Pandas & NumPy
-- ⚡ Advanced TypeScript & React patterns
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🎯 2025 Goals
-- ✅ Build 5+ impactful projects
-- 🔲 Contribute to open-source
-- 🔲 Land a Data Science internship
-- 🔲 Solve 200+ DSA problems
-
-</td>
-<td width="50%">
-
-### 💬 Ask Me About
-- Python, C++, TypeScript
-- Data Science pipelines
-- Web development (React, Node.js)
-- Life at IIT Patna 🏫
-
-</td>
-</tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Infrastructure & Backend</h3>
+      <ul>
+        <li><b>NestJS & Node.js:</b> Building scalable, heavily-typed enterprise APIs.</li>
+        <li><b>PostgreSQL & Prisma:</b> Relational data modeling and type-safe ORM queries.</li>
+        <li><b>Redis & BullMQ:</b> Caching strategies and distributed message queues.</li>
+        <li><b>Docker & AWS:</b> Containerization and cloud deployment.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>AI & Data Engineering</h3>
+      <ul>
+        <li><b>PyTorch & Python:</b> Training and fine-tuning generative models.</li>
+        <li><b>pgvector:</b> High-performance similarity search for RAG pipelines.</li>
+        <li><b>Diffusion Models & ViT:</b> Applied research in image reconstruction.</li>
+        <li><b>Pandas & Scikit-learn:</b> Data analysis and applied machine learning.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Frontend & Mobile Clients</h3>
+      <ul>
+        <li><b>Next.js & React:</b> Edge-rendered, highly performant web applications.</li>
+        <li><b>Flutter & Dart:</b> Cross-platform mobile development with native performance.</li>
+        <li><b>TypeScript:</b> Enforcing strict end-to-end type safety.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Current Active Learning</h3>
+      <ul>
+        <li>Advanced Distributed Systems Design (Paxos/Raft algorithms).</li>
+        <li>Optimizing LLM inference costs and latency in production.</li>
+        <li>Daily DSA problem solving on LeetCode.</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
----
+<br/>
 
-## 🌐 Connect With Me
+## ── Open Source & Analytics
 
 <div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.ravikeshari.me/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ravi-kumar-keshari-a37828347)
-[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/ravi-c029)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ravi_c029)
-[![Pinterest](https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white)](https://pinterest.com/ravi_c029)
-[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ravi.keshari029@gmail.com)
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ravi-c029/ravi-c029/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ravi-c029/ravi-c029/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/ravi-c029/ravi-c029/output/github-contribution-grid-snake-dark.svg" width="100%">
+  </picture>
 </div>
 
----
+<br/>
 
-## 🛠️ Tech Stack
+<table width="100%" border="0">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=ravi-c029&show_icons=true&hide_border=true&title_color=ffffff&icon_color=ffffff&text_color=a0a0a0&bg_color=00000000&disable_animations=true" alt="GitHub Stats" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravi-c029&layout=compact&hide_border=true&title_color=ffffff&text_color=a0a0a0&bg_color=00000000&disable_animations=true" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
 
-### 👨‍💻 Languages
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### 🤖 Data Science & ML
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-### 🌐 Web & Frameworks
-![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-8511FA?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
-![Apache](https://img.shields.io/badge/Apache-D42029?style=for-the-badge&logo=apache&logoColor=white)
-
-### 🗄️ Databases & Cloud
-![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-000000?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
-
-### 🎨 Design & Creative Tools
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white)
-![Adobe Lightroom](https://img.shields.io/badge/Lightroom-31A8FF?style=for-the-badge&logo=Adobe%20Lightroom&logoColor=white)
-![Adobe Premiere Pro](https://img.shields.io/badge/Premiere%20Pro-9999FF?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white)
-![Adobe After Effects](https://img.shields.io/badge/After%20Effects-9999FF?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white)
-
----
-
-## 📊 GitHub Analytics
+<br/>
 
 <div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ravi-c029&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&show_icons=true"/>
-</div>
-
-<div align="center">
-
-![Streak Stats](https://nirzak-streak-stats.vercel.app/?user=ravi-c029&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-[![Ravi's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ravi-c029&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
-## ✍️ Dev Quote of the Day
-
-<div align="center">
-
-![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-</div>
-
----
-
-<div align="center">
-
-### 👀 Profile Views
-[![](https://visitcount.itsvg.in/api?id=ravi-c029&label=Profile%20Views&color=6&icon=5&pretty=true)](https://visitcount.itsvg.in)
-
-### 💡 *"Data is the new oil — I'm here to refine it."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
-
+  <p><sub>Open to SDE Internships • Data Science Roles • Research Collaborations</sub></p>
+  <a href="mailto:ravi.keshari029@gmail.com"><b>Let's build something exceptional.</b></a>
 </div>

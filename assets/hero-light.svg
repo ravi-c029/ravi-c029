@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;display=swap');
+      
+      .bg { fill: #FAFAFA; }
+      .text-name { font-family: 'Inter', sans-serif; font-weight: 800; font-size: 42px; fill: #111111; }
+      .text-title { font-family: 'Inter', sans-serif; font-weight: 600; font-size: 18px; fill: #555555; }
+      .text-mono { font-family: monospace; font-size: 14px; fill: #777777; }
+      
+      .grid { stroke: #EAEAEA; stroke-width: 1; }
+      
+      .glow-dot {
+        fill: #000000;
+        animation: pulse 3s infinite alternate;
+      }
+      
+      @keyframes pulse {
+        0% { opacity: 0.1; r: 2; }
+        100% { opacity: 0.6; r: 5; }
+      }
+      
+      @keyframes dash {
+        to { stroke-dashoffset: 0; }
+      }
+      
+      .line-anim {
+        stroke: #CCCCCC;
+        stroke-width: 1.5;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: dash 4s ease-in-out forwards;
+      }
+    </style>
+    
+    <pattern id="grid-pattern-light" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" class="grid" />
+    </pattern>
+
+    <linearGradient id="fade-light" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAFAFA" stop-opacity="0" />
+      <stop offset="100%" stop-color="#FAFAFA" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="250" class="bg" />
+  <rect width="800" height="250" fill="url(#grid-pattern-light)" />
+  <rect width="800" height="250" fill="url(#fade-light)" />
+
+  <path d="M 50 200 L 750 200" class="line-anim" />
+  <circle cx="50" cy="200" r="3" class="glow-dot" style="animation-delay: 0s;" />
+  <circle cx="750" cy="200" r="3" class="glow-dot" style="animation-delay: 1.5s;" />
+  
+  <path d="M 100 0 L 100 250" class="line-anim" style="stroke: #EEE; animation-duration: 6s;" />
+
+  <text x="50" y="100" class="text-name">Ravi Kumar Keshari</text>
+  <text x="50" y="135" class="text-title">Software Engineer • Systems Architecture &amp; Generative AI</text>
+  
+  <text x="50" y="175" class="text-mono">IIT Patna CS '28 | Scaling to 100K+ Users | RAG &amp; Distributed Systems</text>
+
+  <g transform="translate(680, 50)">
+    <circle cx="0" cy="0" r="2" fill="#000" opacity="0.1"/>
+    <circle cx="20" cy="0" r="2" fill="#000" opacity="0.2"/>
+    <circle cx="40" cy="0" r="2" fill="#000" opacity="0.4"/>
+    <circle cx="60" cy="0" r="2" fill="#000" opacity="0.6"/>
+    <circle cx="80" cy="0" r="2" fill="#000" opacity="0.8"/>
+  </g>
+</svg>
